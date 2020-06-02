@@ -9,20 +9,11 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>with-spring</artifactId>
-    <packaging>pom</packaging>
+    <artifactId>with-vertx</artifactId>
 
-    <name>with-spring</name>
+    <name>with-vertx</name>
     <!-- FIXME change it to the project's website -->
     <url>http://www.example.com</url>
-
-    <modules>
-        <module>with-feign</module>
-        <module>with-eureka</module>
-        <module>with-zuul</module>
-        <module>spring-with-vertx</module>
-        <module>spring-with-mybatis</module>
-    </modules>
 
     <build>
         <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
@@ -69,5 +60,4 @@
             </plugins>
         </pluginManagement>
     </build>
-
 </project>

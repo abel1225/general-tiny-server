@@ -32,6 +32,7 @@
         <module>with-lcn</module>
         <module>toolkit</module>
         <module>with-jooq</module>
+        <module>with-vertx</module>
     </modules>
 
     <properties>
